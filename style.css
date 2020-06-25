@@ -1,0 +1,371 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	overflow-x: hidden;
+}
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+
+.navbar{
+	background-color: #E2474B;
+	padding: 0;
+	opacity: 1;
+	min-height: 10%;
+	
+
+}
+
+
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+/*.nav-link{
+	color: #D8E8E8!important;
+
+}*/
+
+.navbar-nav li a:hover
+{
+	color: #fff!important;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+
+
+.navbar-nav li a
+{ 
+	color: #D8E8E8!important;
+	font-weight: : 600!important; 
+	float: right;
+	text-align: left;
+}
+
+
+#nav-bar:active
+{
+	color: :#fff;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+
+.fa-bars
+{
+	color: #fff;
+	font-size: 30 px;
+
+}
+
+.navbar-toggler
+{
+	outline: none;
+}
+
+
+/*--------------------home---------------*/
+
+#home
+{
+	background-color: #406D96;
+	color: #D8E8E8;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	min-height: 100%;
+}
+
+.title
+{
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 600px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.desc
+{
+	margin-bottom: 100px;
+}
+
+/*.home
+{
+	position: relative;
+	width:100%;
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+
+.home p
+{
+	text-align: center;
+	font-size: 20px;
+	
+	padding: 20px;
+	margin:15px; 
+	z-index: 2; 
+}
+
+.video-container
+{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+
+}
+
+
+.color-overlay
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #406D96;
+	width: 100%;
+	height: 100vh;
+}*/
+
+
+/*.video-header
+{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: #D8E8E8;
+}
+
+
+.wrap
+{
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.fullscreen-video-wrap
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+
+.fullscreen-video-wrap video
+{
+	min-height: 100%;
+	min-width: 100%;
+
+}
+
+.header-overlay
+{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top:0;
+	left:0;
+	background: #406D96;
+	opacity: 0.50;
+	padding: 10%;
+
+}*/
+
+
+/*------------------About me----------------------*/
+
+#about
+{
+	background-color: #A8D0DA;
+	color: #406D96;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	min-height: 100%;
+}
+
+.rounded-circle
+{
+	margin:10%;
+	width:80%;
+}
+
+
+
+/*--------------------services---------------*/
+
+#services
+{
+	background-color: #406D96;
+	color: #D8E8E8;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	min-height: 100%;
+	margin: auto;
+}
+
+
+#services .card
+{
+	min-height: 150px;
+	align-items: center;
+	color: #D8E8E8;
+	background-color: #2F3A56!important;
+	padding: 5%;
+	margin: 5%;
+	height: auto;
+
+}
+
+
+
+
+
+/*--------------portfolio-----------------*/
+
+
+#portfolio
+{
+	background-color: #A8D0DA;
+	color: #406D96;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	min-height: 100%;
+}
+
+
+#potfolio .card :hover
+{
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#portfolio .card
+{
+	min-height: 150px;
+	align-items: center;
+	color: #D8E8E8;
+	background-color: #2F3A56!important;
+	margin: 5%;
+	height: auto;
+	size: 0.8rem;
+	
+}
+
+
+/*.carousel-control-next
+{
+	background-color: #dee2e6;
+	opacity: 0.2;
+	width: 50px;
+
+}*/
+
+
+.btn-floating
+{
+  align: center;
+}
+
+
+.fa-3x
+{
+	padding: 2%;
+	color: #E2474B;
+	opacity: 0.5;
+	}
+
+.fa-3x:hover
+{
+	opacity: 1;
+}
+
+.controls-top 
+{
+	text-align: center;
+}
+/*---------------resume---------------*/
+
+#resume
+{
+	background-color: #406D96;
+	color: #D8E8E8;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	min-height: 100%;
+}
+
+
+
+/*--------------contact me-----------------*/
+
+
+#contact
+{
+	background-color: #A8D0DA;
+	color: #406D96;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	min-height: 100%;
+	height: auto;
+}
+
+
+.custom-card
+{
+	height: auto;
+}
+
+
+
+
+.social-icon
+{
+	width:80px;
+	margin: 30px;
+}
+
+
+.subtitle
+{
+	font-size: 30px;
+	font-weight: 500px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+
+#contact .card
+{
+	min-height: 100px;
+	align-items: center;
+	color: #D8E8E8;
+	background-color: #2F3A56!important;
+	padding: 5%;
+	margin: 5%;
+	height: auto;
+
+}
